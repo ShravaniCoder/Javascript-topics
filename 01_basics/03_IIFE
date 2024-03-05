@@ -1,0 +1,16 @@
+// Immediately Involked Function Expressions (IIFE)
+
+function coffee(){
+	console.log("DB connected")
+}
+coffee();
+
+// Following function using IIFE
+
+(function coffee(){
+	console.log("DB connected One")
+})();
+
+((name) => {
+	console.log("DB Connected Two ${name}")
+})("shravani")
