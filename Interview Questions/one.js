@@ -19,3 +19,9 @@ console.log(x);
 let y = null;
 console.log(null);
 
+// Non-primitive data types
+// 1. Object
+// 2. Array
+// 3. Function
+// 4. Date
+// 5. Reg.Exp
