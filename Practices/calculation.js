@@ -20,16 +20,16 @@ function calculate(num1, num2, operation) {
             return "Cannot perform modulo by zero";
         }
     } else {
-        return "Invalid operation"; // If the operation is none of the above
+        return "Invalid operation"; 
     }
 }
 
-// Example usage:
-console.log(calculate(5, 10, 'add'));           // Output will be 15
-console.log(calculate(10, 5, 'subtract'));      // Output will be 5
-console.log(calculate(5, 10, 'multiply'));      // Output will be 50
-console.log(calculate(10, 5, 'divide'));        // Output will be 2
-console.log(calculate(2, 3, 'exponentiate'));   // Output will be 8 (2^3)
-console.log(calculate(10, 3, 'modulo'));        // Output will be 1 (10 % 3)
-console.log(calculate(5, 0, 'divide'));         // Output will be "Cannot divide by zero"
-console.log(calculate(10, 0, 'modulo'));       // Output will be "Cannot perform modulo by zero"
+
+console.log(calculate(5, 10, 'add'));           
+console.log(calculate(10, 5, 'subtract'));      
+console.log(calculate(5, 10, 'multiply'));      
+console.log(calculate(10, 5, 'divide'));        
+console.log(calculate(2, 3, 'exponentiate'));   
+console.log(calculate(10, 3, 'modulo'));        
+console.log(calculate(5, 0, 'divide'));         
+console.log(calculate(10, 0, 'modulo'));       

@@ -3,7 +3,7 @@ function isPalindrome(str) {
   return str === str.split("").reverse().join("");
 }
 
-// Example usage:
-console.log(isPalindrome("A man, a plan, a canal, Panama")); // Output will be true
-console.log(isPalindrome("racecar")); // Output will be true
-console.log(isPalindrome("hello")); // Output will be false
+
+console.log(isPalindrome("A man, a plan, a canal, Panama")); 
+console.log(isPalindrome("racecar")); 
+console.log(isPalindrome("hello")); 
