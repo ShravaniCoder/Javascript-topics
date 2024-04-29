@@ -33,3 +33,5 @@ console.log(calculate(2, 3, 'exponentiate'));
 console.log(calculate(10, 3, 'modulo'));        
 console.log(calculate(5, 0, 'divide'));         
 console.log(calculate(10, 0, 'modulo'));       
+
+
