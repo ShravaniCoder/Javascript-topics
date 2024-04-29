@@ -1,3 +1,5 @@
+//Write a JavaScript function to calculate the sum of two numbers.  
+
 function calculate(num1, num2, operation) {
     if (operation === 'add') {
         return num1 + num2; // Addition

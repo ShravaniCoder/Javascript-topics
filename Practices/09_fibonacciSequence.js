@@ -1,3 +1,5 @@
+//Write a JavaScript function that returns the Fibonacci sequence up to a given number of terms. 
+
 function fibonacciSequence(numTerms) {
   let sequence = [0, 1]; 
   for (let i = 2; i < numTerms; i++) {

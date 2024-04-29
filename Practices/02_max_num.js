@@ -1,3 +1,5 @@
+//Write a JavaScript program to find the maximum number in an array. 
+
 function findMax(arr) {
 
     if (arr.length === 0) {
