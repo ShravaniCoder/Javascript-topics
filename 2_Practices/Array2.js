@@ -17,4 +17,4 @@ console.log(newArr);
 //5index3
 //[ 1, 3, 5, 8 ]
 
-// that means our Map, it returns.
+// that means our Map, it returns new array.

@@ -17,4 +17,4 @@ console.log(newArr);
 //5index3
 //undefined
 
-// that means our ForEach not returns.
+// that means our ForEach not returns new array.
